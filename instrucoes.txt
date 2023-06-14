@@ -1,0 +1,7 @@
+add r1, r2, r3
+ld r6, 2(r1)
+add r2, r5, r4
+beq r4, r3, 2
+str r7, 32(r1)
+mul r3, r7, r6
+sub r5, r6, r8
